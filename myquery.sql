@@ -1,1 +1,1 @@
-select * from sales
+select * from sales;
