@@ -14,6 +14,7 @@ select sum(sales) as tot_sale_price
 from sales
 where year_id=2005;
 
+
 select year_id,sum(sales) as tot_sale_price
 from sales
 group by year_id
