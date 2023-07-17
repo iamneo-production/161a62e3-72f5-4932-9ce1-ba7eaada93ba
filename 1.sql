@@ -14,3 +14,5 @@ where year_id=2005;
 select year_id,sum(sales)
 from SALES group by year_id
 order by year_id;
+
+select * from SALES;
