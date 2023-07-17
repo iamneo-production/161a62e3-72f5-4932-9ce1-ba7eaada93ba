@@ -11,3 +11,4 @@ select count(*) as total_customer_list from sales where country ='USA';
 select count(*) as no_of_customers from sales where sales>5000;
 
 -- query to find no of products ordered in 2003
+select count(*) as no_of_products from sales where year_id = '2003';
