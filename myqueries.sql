@@ -12,3 +12,6 @@ select count(*) as no_of_customers from sales where sales>5000;
 
 -- query to find no of products ordered in 2003
 select count(*) as no_of_products from sales where year_id = '2003';
+
+-- query to find total sale price in year 2005.
+select sum(sales) as total_sale_price from sales where year_id = '2005';
