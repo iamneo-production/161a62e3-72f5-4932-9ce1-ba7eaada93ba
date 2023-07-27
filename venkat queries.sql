@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 --venkat;
+=======
+--desc sales;
+>>>>>>> Oracle-Workspace-saivenkat772
 -- 1
 -- SQL query to find all customers who ordered from USA
 select * from sales where country='USA';
