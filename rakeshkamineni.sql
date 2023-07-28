@@ -22,3 +22,4 @@ select sum(sales) as total_sale_price from sales group by year_id;
 --trying indexes on sales table
 create index order_id on sales("ORDERNUMBER");
 
+create index ordered_date on sales("MONTH_ID","YEAR_ID");
