@@ -1,3 +1,4 @@
+--Ashritha
 --1)Write a SQL query to find the total customers list who are all ordered from the USA.
 select sum(1) as customer_list from SALES
 where country='USA'; 
