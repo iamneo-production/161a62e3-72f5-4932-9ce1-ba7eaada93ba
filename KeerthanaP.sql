@@ -14,10 +14,6 @@ where year_id=2003;
 select sum(sales) as tot_sale_price from sales
 where year_id=2005;
 
-<<<<<<< HEAD
---5.query to find total sale price for each year.
-=======
--- 5.Query to find total sale price for each year.
->>>>>>> origin/Oracle-Workspace-Keerthana-123-keerthi
+-- 5.query to find total sale price for each year.
 select year_id,sum(sales) as tot_sale_price from sales
 group by year_id;
