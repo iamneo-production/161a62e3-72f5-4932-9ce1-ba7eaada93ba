@@ -2,7 +2,7 @@
 select * from sales;
 
 --query to find total customer list who are all  ordered from the USA
-select count(*) as customer_list
+select count(*) as customers_list
 from sales
 where country='USA';
 
