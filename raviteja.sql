@@ -2,12 +2,12 @@
 select * from sales;
 
 --query to find total customer list who are all  ordered from the USA
-select count(*) as customer_list
+select count(*) as customers_list
 from sales
 where country='USA';
 
 --query to find no of customers who have made purchases exceeding 5000
-select count(*) as purchase_list
+select count(*) as purchases_list
 from sales
 where sales>5000;
 
