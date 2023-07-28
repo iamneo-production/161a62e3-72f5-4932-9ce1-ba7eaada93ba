@@ -19,6 +19,8 @@ select sum(sales) as total_sale_price from sales where year_id= '2005';
 --to find total_sale_price for each year
 select sum(sales) as total_sale_price from sales group by year_id;
 
+
+
 <<<<<<< HEAD
 --create index for view
 create index products on sales(PRODUCTCODE);
@@ -26,3 +28,4 @@ create index products on sales(PRODUCTCODE);
 --create index for our reference
 create index products on sales(PRODUCTCODE);
 >>>>>>> origin/Oracle-Workspace-keerthikeerthana39
+
