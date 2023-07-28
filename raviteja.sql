@@ -1,3 +1,7 @@
+
+
+--to describe the table
+desc sales;
 --fetch all records
 select * from sales;
 
