@@ -13,6 +13,5 @@ where year_id=2005;
 -- 5) Write a sql query to find the total sale price each year.
 select year_id,sum(sales) as total_sales
 from SALES group by year_id;
--- to fetch all records.
-select * from SALES;
+
 
