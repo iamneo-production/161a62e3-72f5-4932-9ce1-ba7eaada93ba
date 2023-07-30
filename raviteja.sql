@@ -6,7 +6,6 @@ desc sales;
 select * from sales;
 
 --query to find total customer list who are all  ordered from the USA
-set timing on ;
 select count(*) as customers_list
 from sales
 where country='USA';
