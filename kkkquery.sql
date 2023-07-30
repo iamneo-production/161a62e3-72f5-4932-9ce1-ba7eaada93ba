@@ -22,4 +22,4 @@ where year_id=2005;
 select year_id,sum(sales) as total_sale_Price
 from sales
 group by year_id
-order by year_id;
+order by asc;
