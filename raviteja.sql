@@ -8,7 +8,7 @@ from sales
 where country='USA';
 
 --query to find no of customers who have made purchases exceeding 5000
-select count(*) as purchases_list
+select count(*) as purchase_list
 from sales
 where sales>5000;
 
