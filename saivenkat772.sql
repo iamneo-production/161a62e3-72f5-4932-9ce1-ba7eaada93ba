@@ -1,7 +1,7 @@
 --desc sales;
 -- 1
 -- SQL query to find all customers who ordered from USA
-select * from sales where country='USA';
+select count(*) from sales where country='USA';
 
 --2
 --SQL query to find the count of customers who made purchases exceeding 5000
