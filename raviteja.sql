@@ -2,16 +2,7 @@
 set timing on;
 --to describe the table
 desc sales;
-<<<<<<< HEAD
 
---query to find total customer list who are all  ordered from the USA
-=======
---fetch all records
-select * from sales;
-
---query to find total customer list who are all  ordered from the USA
-set timing on ;
->>>>>>> 055752af5c5b11c0deb6bf680560027d3a9253a5
 select count(*) as customers_list
 from sales
 where country='USA';
