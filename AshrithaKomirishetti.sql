@@ -16,7 +16,5 @@ where year_id=2005;
 select year_id,sum(sales) as total_sales
 from SALES group by year_id;
 
---to fetch year_id
-select year_id from sales;
 
 
