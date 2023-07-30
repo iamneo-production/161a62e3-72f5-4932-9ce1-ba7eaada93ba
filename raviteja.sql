@@ -13,7 +13,13 @@ select count(*) as Customer_list from sales where country='USA';
 >>>>>>> Oracle-Workspace-Ravitejakammula-11
 
 --query to find no of customers who have made purchases exceeding 5000
+<<<<<<< HEAD
 select count(*) as Purchases_list from sales where sales>5000;
+=======
+select count(*) as purchase_list
+from sales
+where sales>5000;
+>>>>>>> cdf23c136fe09c7f7644e30caf0babf69a74714e
 
 --query to find no of products ordered in 2003
 select count(ordernumber) as product_list from sales where year_id=2003;
