@@ -1,4 +1,4 @@
---description of sales_history
+--description of sales_history 
 desc sales;
 
 --to find total_customer list who are all ordered from the USA
