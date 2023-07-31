@@ -1,3 +1,4 @@
+--Keerthana P
 -- 1.Query to find total customer list who are all ordered from USA.
 select count(*) as customer_list from sales
 where country='USA';
