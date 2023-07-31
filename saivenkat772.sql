@@ -1,11 +1,7 @@
-<<<<<<< HEAD
---venkat;
-=======
---desc sales;
->>>>>>> Oracle-Workspace-saivenkat772
+--venkat new file
 -- 1
 -- SQL query to find all customers who ordered from USA
-select * from sales where country='USA';
+select count(*) from sales where country='USA';
 
 --2
 --SQL query to find the count of customers who made purchases exceeding 5000
@@ -21,4 +17,4 @@ select sum(sales)as total_sales_in_2005 from sales where year_id='2005';
 
 --5
 -- SQL query to find the total sale price in each year
-select year_id as year,sum(sales)as total_sales from sales group by year_id order by year_id;
+select year_id as year,sum(sales)as total_sales from sales group by year_id order by  year_id ASC;
