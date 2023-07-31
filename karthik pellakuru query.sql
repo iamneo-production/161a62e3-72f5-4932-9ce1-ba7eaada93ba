@@ -1,4 +1,4 @@
---queries
+--final queries
 --query for finding the total customers list who are all odered from the USA.
 select count(*) as total_customers_list from sales where country ='USA';
 
