@@ -1,7 +1,7 @@
 --Ashritha
 --1)Write a SQL query to find the total customers list who are all ordered from the USA.
 select sum(1) as customer_list
- from SALES where country='USA'; 
+from SALES where country='USA'; 
 -- 3) Write a sql query to find how many products are ordered in the year 2003.
 select sum(1) as total_products from SALES
 where year_id=2003;
