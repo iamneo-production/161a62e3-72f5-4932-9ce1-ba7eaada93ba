@@ -1,4 +1,4 @@
---desc sales;
+--venkat new file
 -- 1
 -- SQL query to find all customers who ordered from USA
 select count(*) from sales where country='USA';
