@@ -21,9 +21,5 @@ where year_id=2005;
 -- SQL Query to find the total sale price each year
 select year_id,sum(sales) as total_sale_Price
 from sales
-<<<<<<< HEAD
 group by year_id;
-=======
-group by year_id
-order by year_id asc;
->>>>>>> 3ae868e0e28d8d9d4864078b05f4669cd85bea27
+
