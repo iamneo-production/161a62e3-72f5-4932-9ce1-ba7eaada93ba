@@ -1,4 +1,3 @@
-
 set timing on;
 --to describe the table
 desc sales;
