@@ -15,6 +15,18 @@ where year_id=2003;
 select sum(sales) as tot_sale_price from sales
 where year_id=2005;
 
+<<<<<<< HEAD
+-- 5.query to find total sale price for each year.
+select year_id,sum(sales) as tot_sale_price from sales
+group by year_id;
+=======
+<<<<<<< HEAD
+-- 5.query to find total sale price for each year.
+select year_id,sum(sales) as tot_sale_price from sales
+group by year_id;
+=======
 -- 5.Query to find total sale price for each year.
 select year_id,sum(sales) as tot_sale_price from sales
 group by year_id;
+>>>>>>> 42684594d03273e4fc7177631174d61e7ece8410
+>>>>>>> 055752af5c5b11c0deb6bf680560027d3a9253a5
