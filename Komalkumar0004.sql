@@ -15,8 +15,7 @@ where year_id=2003;
 
 -- SQL Query to find the total sale price in the year 2005
 select sum(sales) as total_sales
-from sales
-where year_id=2005;
+from sales where year_id=2005;
 
 -- SQL Query to find the total sale price each year
 select year_id,sum(sales) as total_sale_Price
