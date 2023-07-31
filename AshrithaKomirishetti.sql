@@ -6,8 +6,8 @@ from SALES where country='USA';
 select sum(1) as total_products from SALES
 where year_id=2003;
 -- 2) Write a sql query to count the number of customers who have been made purchases exceeding 5000.
-select distinct sum(1) as total_customers from SALES 
-where sales>5000;
+select distinct sum(1) as total_customers 
+from SALES where sales>5000;
 -- 4) Write a sql query to find the total sale price in the year 2005.
 select sum(sales) as total_sale_price 
 from SALES
