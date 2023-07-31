@@ -12,3 +12,4 @@ select sum(sales) as total_sale_price from sales where year_id = '2005';
 
 -- query to find total sale price for each year.
 select sum(sales) as total_sale_price from sales group by year_id;
+

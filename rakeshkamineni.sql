@@ -1,8 +1,8 @@
 -- description of sales table.
 desc sales;
 
--- fetch all records from the sales table.
-select * from sales; 
+
+
 
 -- query to find total customer list who are all ordered from the USA.
 select count(*) as total_customer_list from sales where country ='USA';
@@ -22,4 +22,5 @@ select sum(sales) as total_sale_price from sales group by year_id;
 --trying indexes on sales table
 create index order_id on sales("ORDERNUMBER");
 
+create index country_id on sales("COUNTRY");
 create index ordered_date on sales("MONTH_ID","YEAR_ID");
